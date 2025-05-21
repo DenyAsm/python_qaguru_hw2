@@ -2,7 +2,7 @@
 def add(a, b):
     return a + b
 
-result = add(1000, 50)
+result = add(1000, 50000)
 print(result)
 
 # Функция, которая возвращает максимальное из трёх чисел
