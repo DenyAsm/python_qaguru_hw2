@@ -5,7 +5,6 @@ def add(a, b):
 result = add(100, 50)
 print(result)
 
-
 # Функция, которая возвращает максимальное из трёх чисел
 def max_of_three(a, b, c):
     return max(a, b, c)
@@ -20,10 +19,22 @@ def is_even(number):
 print(is_even(100))  # True
 print(is_even(77))  # False
 
-
 # Функция, которая выводит элементы списка
 def print_list(items):
     for item in items:
         print(item)
 
 print_list(['Python', 'Selenium', 'Playwright'])
+
+# Скрипт определяет функцию, которая принимает имя и возраст пользователя,
+# а затем выводит персональное приветствие и говорит, сколько лет будет через 5 лет.
+
+def greet_and_predict(name, age):
+    print(f"Привет, {name}!")
+    future_age = age + 5
+    print(f"Через 5 лет тебе будет {future_age} лет.")
+
+user_name = input("Как тебя зовут? ")
+user_age = int(input("Сколько тебе лет? "))
+
+greet_and_predict(user_name, user_age)
