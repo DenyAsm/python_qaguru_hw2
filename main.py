@@ -11,7 +11,7 @@ print(result)
 def max_of_three(a, b, c):
     return max(a, b, c)
 
-print(max_of_three(1000, 55, 83))  # 10
+print(max_of_three(1000, 5555, 83))  # 10
 
 
 # Проверка, является ли число четным
